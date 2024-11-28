@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phone-box {
+            width: 332px;
+            height: 548px;
+            background: url(../static/images/phone-bg.png) no-repeat;
+            padding: 70px 0 0 14px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="phone-box loaded">
+        <iframe width="320" height="480" scrolling="no" src="http://10.168.1.226:8085/h5/"></iframe>
+    </div>
+    <a href="http://10.168.1.226:8085/" target="_blank">
+        <h2>
+            后台管理
+        </h2>
+    </a>
+</body>
+<script>
+    if (typeof window.orientation !== 'undefined') {
+        // 当前设备是移动设备 
+        window.location.replace("http://10.168.1.226:8085/h5/");
+    }
+</script>
+
+</html>

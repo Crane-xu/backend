@@ -1,0 +1,3 @@
+D:\xhh\code\TodoApi\bin\Release\net8.0\linux-x64\publish\appsettings.Development.json
+D:\xhh\code\TodoApi\bin\Release\net8.0\linux-x64\publish\appsettings.json
+D:\xhh\code\TodoApi\bin\Release\net8.0\linux-x64\publish\TodoApi
